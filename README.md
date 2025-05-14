@@ -29,6 +29,17 @@ Dla każdej głównej encji zaproponuj przykładową strukturę dokumentu MongoD
 * Które dane warto osadzić (embed),
 * Gdzie warto stosować referencje (reference).
 
+### 🔹 Zadanie 3: Zdefiniuj schematy kolekcji MongoDB
+
+Dla każdej zaprojektowanej kolekcji przygotuj definicję schematu walidacji danych z wykorzystaniem `$jsonSchema`. Twoje schematy powinny:
+
+* definiować wymagane pola (`required`),
+* określać typ danych (`bsonType`),
+* stosować dodatkowe ograniczenia (`minimum`, `maximum`, `pattern`), jeśli to uzasadnione,
+* być zgodne z wcześniej zaproponowaną strukturą dokumentów.
+
+> 💡 **Wskazówka:** Staraj się możliwie precyzyjnie odwzorować strukturę danych, jednocześnie zachowując spójność między kolekcjami.\*\* Wybierz kolekcję, której struktura zawiera zarówno dane podstawowe, jak i powiązania (np. `Customer` → `SupportRep`). Pamiętaj o dodaniu `required`, `bsonType`, a jeśli chcesz – `minimum`, `maximum` lub `pattern`.
+
 ---
 
 ## 📝 Wskazówki
@@ -41,4 +52,3 @@ Dla każdej głównej encji zaproponuj przykładową strukturę dokumentu MongoD
 > 👉 Polecane narzędzie: [Hackolade Studio (online)](https://studio.hackolade.com/) — darmowy i dedykowany edytor modelu dokumentowego MongoDB z możliwością tworzenia zagnieżdżonych struktur oraz relacji między kolekcjami.
 
 
----
