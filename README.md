@@ -2,7 +2,7 @@
 
 ## 🎯 Cel
 
-Celem tego ćwiczenia jest przekształcenie relacyjnej bazy danych Chinook na dokumentowy model MongoDB. Studenci mają zaproponować strukturę dokumentów, która będzie logiczna, wydajna i dobrze dopasowana do przypadków użycia.
+Celem tego ćwiczenia jest przekształcenie relacyjnej bazy danych Chinook na dokumentowy model MongoDB. Student ma zaproponować strukturę dokumentów, która będzie logiczna, wydajna i dobrze dopasowana do przypadków użycia.
 
 ## 📚 Kontekst
 
