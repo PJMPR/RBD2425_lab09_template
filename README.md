@@ -29,6 +29,11 @@ Dla każdej głównej encji zaproponuj przykładową strukturę dokumentu MongoD
 * Które dane warto osadzić (embed),
 * Gdzie warto stosować referencje (reference).
 
+> 💡 **Uwaga:** przygotuj graficzną mapę kolekcji i ich powiązań (np. jako diagram online).
+>
+> 👉 Polecane narzędzie: [Hackolade Studio (online)](https://studio.hackolade.com/) — darmowy i dedykowany edytor modelu dokumentowego MongoDB z możliwością tworzenia zagnieżdżonych struktur oraz relacji między kolekcjami.
+
+
 ### 🔹 Zadanie 3: Zdefiniuj schematy kolekcji MongoDB
 
 Dla każdej zaprojektowanej kolekcji przygotuj definicję schematu walidacji danych z wykorzystaniem `$jsonSchema`. Twoje schematy powinny:
@@ -47,8 +52,5 @@ Dla każdej zaprojektowanej kolekcji przygotuj definicję schematu walidacji dan
 * Nie odwzorowuj jeden-do-jednego tabel SQL na kolekcje MongoDB — myśl w kategoriach dokumentów i przypadków użycia.
 * Pamiętaj, że MongoDB nie wspiera JOINów w klasycznym rozumieniu — projektuj z myślą o zapytaniach.
 
-> 💡 **Na koniec:** przygotuj graficzną mapę kolekcji i ich powiązań (np. jako diagram online).
->
-> 👉 Polecane narzędzie: [Hackolade Studio (online)](https://studio.hackolade.com/) — darmowy i dedykowany edytor modelu dokumentowego MongoDB z możliwością tworzenia zagnieżdżonych struktur oraz relacji między kolekcjami.
 
 
